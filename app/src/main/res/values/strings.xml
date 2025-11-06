@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UserInput</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="nama">Helfina Syawalia</string>
+    <string name="alamat">Yogyakarta</string>
+    <string name="copy">© 2025 UMY</string>
+</resources>
