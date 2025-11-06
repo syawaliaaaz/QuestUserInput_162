@@ -10,4 +10,9 @@
    <include domain="sharedpref" path="."/>
    <exclude domain="sharedpref" path="device.xml"/>
 -->
+<<<<<<< HEAD
 </full-backup-content>
+=======
+</full-backup-content>
+
+>>>>>>> 92a02123fb773c9d555ccc7d436d5af7214e101b

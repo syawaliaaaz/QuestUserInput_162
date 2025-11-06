@@ -1,4 +1,5 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">UserInput</string>
     <string name="prodi">Teknologi Informasi</string>
     <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
@@ -6,3 +7,8 @@
     <string name="alamat">Yogyakarta</string>
     <string name="copy">© 2025 UMY</string>
 </resources>
+=======
+    <string name="app_name"> UserInput_20230140162 </string>
+    <string name="submit">Submit</string>
+</resources>
+>>>>>>> 92a02123fb773c9d555ccc7d436d5af7214e101b

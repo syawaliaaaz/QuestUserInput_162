@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+<<<<<<< HEAD
     alias(libs.plugins.kotlin.compose)
 }
 
@@ -10,6 +11,16 @@ android {
 
     defaultConfig {
         applicationId = "com.example.userinput"
+=======
+}
+
+android {
+    namespace = "com.example.userinput_20230140162"
+    compileSdk = 36
+
+    defaultConfig {
+        applicationId = "com.example.userinput_20230140162"
+>>>>>>> 92a02123fb773c9d555ccc7d436d5af7214e101b
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -35,13 +46,18 @@ android {
         jvmTarget = "11"
     }
     buildFeatures {
+<<<<<<< HEAD
         compose = true
+=======
+        viewBinding = true
+>>>>>>> 92a02123fb773c9d555ccc7d436d5af7214e101b
     }
 }
 
 dependencies {
 
     implementation(libs.androidx.core.ktx)
+<<<<<<< HEAD
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
@@ -56,4 +72,14 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+=======
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+>>>>>>> 92a02123fb773c9d555ccc7d436d5af7214e101b
 }

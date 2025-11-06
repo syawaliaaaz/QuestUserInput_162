@@ -19,6 +19,10 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "UserInput"
+=======
+rootProject.name = "UserInput_20230140162"
+>>>>>>> 92a02123fb773c9d555ccc7d436d5af7214e101b
 include(":app")
  
